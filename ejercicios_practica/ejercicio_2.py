@@ -12,14 +12,14 @@
 # Ahora los valores a operar deben ser ingresados por
 # consola con la función "input" como se ve a continuación
 print('Ingrese por consola el primer número decimal a operar:')
-numero_1 = float(input())
+numero_1 = int(input())
 
 print('Ingrese por consola el segundo número decimal a operar:')
-numero_2 = float(input())
+numero_2 = int(input())
 
 # Alumno: Imprima en pantalla los dos números decimales solicitados
 # print(....)
-print(numero_1, numero_2)
+print('Los numeros ingresados son:', numero_1, ',', numero_2)
 
 # Alumno: Calcule la suma, resta, división y multiplicación de los números ingresados
 # numero_1, numero_2
@@ -55,12 +55,12 @@ print('el resultado de multiplicar', numero_1, 'por', numero_2, 'es', multi )
 #Output
 '''
 Ingrese por consola el primer número decimal a operar:
-1.4
+13
 Ingrese por consola el segundo número decimal a operar:
-3.2
-1.4 3.2
-el resultado de sumar 1.4 y 3.2 es 4.6
-el resultado de restar 1.4 y 3.2 es -1.8000000000000003
-el resultado de dividir 1.4 entre 3.2 es 0.43749999999999994
-el resultado de multiplicar 1.4 por 3.2 es 4.4799999999999995
+17
+13 17
+el resultado de sumar 13 y 17 es 30
+el resultado de restar 13 y 17 es -4
+el resultado de dividir 13 entre 17 es 0.7647058823529411
+el resultado de multiplicar 13 por 17 es 221
 '''
