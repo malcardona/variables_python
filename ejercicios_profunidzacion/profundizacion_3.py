@@ -36,5 +36,30 @@ https://www.geeksforgeeks.org/isupper-islower-lower-upper-python-applications/
 Cualquier duda con estos métodos pueden consultarla por el campus
 '''
 
-print('Ahora si! buena suerte')
+#print('Ahora si! buena suerte')
 # Empezar aquí la resolución del ejercicio
+
+print('|A <-> a|')
+# Nombre
+print('-Nombre (Apellido, Nombre)-')
+nombre_c = str(input())
+
+apellido, nombre = nombre_c.split(', ')
+
+nombre_u = nombre.upper()
+nombre_l = nombre.lower()
+nombre_cap = nombre.capitalize()
+
+
+apellido_u = apellido.upper()
+apellido_l = apellido.lower()
+apellido_cap = apellido.capitalize()
+
+#Mayúsculas
+print('-', nombre_u, apellido_u)
+
+#Minúsculas
+print('-', nombre_l, apellido_l)
+
+#Mayúscula primera letra
+print('-', nombre_cap, apellido_cap)
