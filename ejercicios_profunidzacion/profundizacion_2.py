@@ -31,5 +31,27 @@ Finalmente el programa debe imprimir dos líneas de texto por separado
   entienda de que se está hablando.
 '''
 
-print('Sistema de ingreso de datos')
+print('>Sistema de ingreso de datos<')
 # Empezar aquí la resolución del ejercicio
+
+print('Ingrese los siguientes datos:')
+# Nombre
+print('-Nombre (Apellido, Nombre)-')
+nombre_c = str(input())
+
+apellido, nombre = nombre_c.split(', ')
+#print(nombre)
+#print(apellido)
+
+print('-DNI-')
+dni = str(input())
+
+print('-Edad-')
+edad = str(input())
+
+print('-Altura (m)-')
+alt = str(input())
+
+print('Los datos ingresados son:')
+print('Nombre Completo:', nombre, apellido, ' DNI:', dni)
+print('Nombre Completo:', nombre, apellido, ' Edad:', edad, ' Altura:', alt)
