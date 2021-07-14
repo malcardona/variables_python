@@ -45,3 +45,23 @@ Cualquier duda con el método split pueden consultarla por el campus
 
 print('Jugando con texto')
 # Empezar aquí la resolución del ejercicio
+
+print('Ingrese los soguientes datos:')
+
+print('-Nombre Completo de la Madre (Apellido, Nombre)-')
+nombre_c1 = str(input())
+
+apellido_1, nombre_1 = nombre_c1.split(', ')
+apellido_1c = apellido_1.capitalize()
+
+print('-Nombre Completo del Padre (Apellido, Nombre)-')
+nombre_c2 = str(input())
+
+apellido_2, nombre_2 = nombre_c2.split(', ')
+apellido_2c = apellido_2.capitalize()
+
+print('Nombre de la hija/o:')
+nombre_h = str(input()).capitalize()
+
+print('Nombre Completo de la hija/o:')
+print(nombre_h, apellido_2c, apellido_1c)
