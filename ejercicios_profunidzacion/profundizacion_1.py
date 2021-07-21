@@ -34,10 +34,10 @@ print('¡Nuestra primera calculadora!')
 print('Ingresa dos numeros reales')
 
 print('Número 1:')
-numero_1 = int(input())
+numero_1 = float(input())
 
 print('Número 2:')
-numero_2 = int(input())
+numero_2 = float(input())
 
 print('Los números ingresados son:', numero_1, 'y', numero_2)
 
